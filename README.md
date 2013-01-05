@@ -7,8 +7,8 @@ Even though there are plenty of amazing ORMs out there today, like Entity Framew
 
 ### Feature Summary
 Here is a list of the features found in DataRecordExtensions.
-* Support for all operations by column index or name.
-* Support for nullable types (or a default value).
+* Support operations taking both column index or name.
+* Support for nullable types.
 * Support for mapping to enumerations.
 * Support for automatically converting a column value to specified type.
 * Support for returning all row values in an object array.

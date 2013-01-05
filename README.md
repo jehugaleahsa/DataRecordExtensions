@@ -3,7 +3,7 @@
 Powerful extensions to the ADO.NET IDataRecord interface.
 
 ## Overview
-Even though there are plenty of amazing ORMs out there today, like Entity Framework, a large number of developers are still using the core ADO.NET classes. These include the DataSet and DataTable classes, as well as the IDataReader and IDataRecord classes. For those of us still working with the raw power of ADO.NET, DataRecordExtensions are an essential time saver.
+Even though there are plenty of amazing ORMs out there today, like Entity Framework, a large number of developers are still using the core ADO.NET classes. These include the DataSet and DataTable classes, as well as the IDataReader and IDataRecord classes. For those of us still working with the raw power of ADO.NET, DataRecordExtensions is an essential library.
 
 ### Feature Summary
 Here is a list of the features found in DataRecordExtensions.

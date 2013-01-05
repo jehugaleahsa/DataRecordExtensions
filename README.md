@@ -3,6 +3,7 @@
 Extensions to the ADO.NET IDataRecord interface.
 
 Download on NuGet for .NET 2.0: [DataRecordDecorators](http://nuget.org/packages/DataRecordDecorators)
+
 Download on NuGet for .NET 3.5+: [DataRecordExtensions](http://nuget.org/packages/DataRecordExtensions)
 
 ## Overview

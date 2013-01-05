@@ -2,6 +2,9 @@
 
 Extensions to the ADO.NET IDataRecord interface.
 
+Download on NuGet for .NET 2.0: [DataRecordDecorators](http://nuget.org/packages/DataRecordDecorators)
+Download on NuGet for .NET 3.5+: [DataRecordExtensions](http://nuget.org/packages/DataRecordExtensions)
+
 ## Overview
 Even though there are plenty of amazing ORMs out there today, like Entity Framework, a large number of developers are still using the core ADO.NET classes. These include the `DataSet` and `DataTable` classes, as well as the `IDataReader` and `IDataRecord` classes. For those of us still working with the raw power of ADO.NET, DataRecordExtensions is an essential library.
 

@@ -38,7 +38,7 @@ For those of us still working in .NET 2.0, two decorator classes are provided: `
 
 
 ### DataRecordExtensions
-For those of us working in newer version of .NET, extension methods are provided for the `IDataRecord` interface. NOTE: `IDataReader` inherits from `IDataRecord`, so it also has access to all the extension methods.
+For those of us working in a newer version of .NET, extension methods are provided for the `IDataRecord` interface. NOTE: `IDataReader` inherits from `IDataRecord`, so it also has access to all the extension methods.
 
 	using (SqlConnection connection = new SqlConnection(connectionString))
 	{

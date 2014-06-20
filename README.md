@@ -80,7 +80,7 @@ Personally, I find the second approach slightly more readable.
 ## Avoid Conversion Errors
 Some providers do not make it easy to grab values from an `IDataReader`. For instance, the Oracle data provider is notorious for forcing small NUMBERs to be `byte` or `short` rather than `int`. Things get especially hairy when working with floating point types. There's no risk in increasing precision, so an exception being thrown doesn't really make sense. That's why I created the `GetValue<T>` method. This method accepts the desired type as the generics argument. The method will do its best to convert to the specified type. It can even handle string to int conversion and nullables!
 
-## Licence
-If you are looking for a licence, you won't find one. The software in this project is free, as in "free as air". Feel free to use my software anyway you like. Use it to build up your evil war machine, swindle old people out of their social security or crush the souls of the innocent.
+## License
+If you are looking for a license, you won't find one. The software in this project is free, as in "free as air". Feel free to use my software anyway you like. Use it to build up your evil war machine, swindle old people out of their social security or crush the souls of the innocent.
 
 I love to hear how people are using my code, so drop me a line. Feel free to contribute any enhancements or documentation you may come up with, but don't feel obligated. I just hope this code makes someone's life just a little bit easier.

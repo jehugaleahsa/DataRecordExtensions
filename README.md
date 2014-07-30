@@ -26,7 +26,7 @@ For those of us still working in .NET 2.0, two decorator classes are provided: `
 		using (SqlCommand command = connection.CreateCommand())
 		{
 			command.CommandText = "SELECT * FROM TABLE";
-			using (IDataReader reader = new DataReaderDecorator(command.ExecuteReader()))
+			using (DataReaderDecorator reader = new DataReaderDecorator(command.ExecuteReader()))
 			{
 				while (reader.Read())
 				{

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.3;NET451</TargetFrameworks>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Description>Extension methods for the ADO.NET IDataRecord class.</Description>
     <Copyright>Copyright ©  2013</Copyright>
     <PackageLicenseUrl>https://github.com/jehugaleahsa/DataRecordExtensions/blob/master/UNLICENSE.txt</PackageLicenseUrl>
@@ -24,7 +24,7 @@
     <DocumentationFile>bin\Release\netstandard1.3\DataRecordExtensions.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)'=='netstandard1.3'">
     <PackageReference Include="System.Data.Common" Version="4.3.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
   </ItemGroup>

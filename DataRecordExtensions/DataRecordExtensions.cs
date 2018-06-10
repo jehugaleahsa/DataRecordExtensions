@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Globalization;
+using System.Reflection;
 
 namespace DataRecordExtensions
 {
@@ -1322,7 +1323,7 @@ namespace DataRecordExtensions
             Type type = Nullable.GetUnderlyingType(typeof(T)) ?? typeof(T);
             if (record.IsDBNull(i))
             {
-                if (typeof(T).IsValueType && typeof(T) == type)
+                if (typeof(T).GetTypeInfo().IsValueType && typeof(T) == type)
                 {
                     throw new InvalidCastException();
                 }
